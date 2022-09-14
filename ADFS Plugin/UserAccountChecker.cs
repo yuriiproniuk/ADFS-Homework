@@ -3,6 +3,7 @@ using ADFS_Plugin.Models;
 using Microsoft.Identity.Client;
 using Microsoft.Identity.Web;
 using System;
+using System.Diagnostics;
 using System.Net.Http;
 using System.Security.Authentication;
 using System.Threading.Tasks;
@@ -13,6 +14,7 @@ namespace ADFS_Plugin
     {
         private readonly JsonFileReader jsonFileReader;
         private readonly UserAccountInputValidator userAccountInputValidator;
+        private EventLog eventLog;
 
         public UserAccountChecker()
         {
@@ -67,7 +69,12 @@ namespace ADFS_Plugin
                 result = await app.AcquireTokenForClient(scopes)
                     .ExecuteAsync();
 
-                // TODO: Replace with Windows Log Api
+                using (eventLog = new EventLog("ADFS Plugin Log"))
+                {
+                    eventLog.Source = "ADFS Plugin";
+                    eventLog.WriteEntry("Token acquired \n", EventLogEntryType.Information);
+                }
+
                 Console.WriteLine("Token acquired \n");
 
                 return result;
@@ -75,9 +82,14 @@ namespace ADFS_Plugin
             catch (MsalServiceException ex) when (ex.Message.Contains("AADSTS70011"))
             {
                 // Invalid scope. The scope has to be of the form "https://resourceurl/.default"
-                // Mitigation: change the scope to be as expected
+                // Mitigation: change the scope to be as expected   
 
-                // TODO: Replace with Windows Log Api
+                using (eventLog = new EventLog("ADFS Plugin Log"))
+                {
+                    eventLog.Source = "ADFS Plugin";
+                    eventLog.WriteEntry("Scope provided is not supported", EventLogEntryType.Error);
+                }
+
                 Console.WriteLine("Scope provided is not supported");
 
                 throw new Exception(ex.Message, ex);
@@ -88,10 +100,13 @@ namespace ADFS_Plugin
         {
             if (result)
             {
-                // TODO: Replace with Windows Log Api
-                Console.WriteLine("Web Api result: \n");
+                using (eventLog = new EventLog("ADFS Plugin Log"))
+                {
+                    eventLog.Source = "ADFS Plugin";
+                    eventLog.WriteEntry($"Web Api result: {result}", EventLogEntryType.Error);
+                }
 
-                // TODO: Replace with Windows Log Api
+                Console.WriteLine("Web Api result: \n");
                 Console.WriteLine(result.ToString());
             }
             else

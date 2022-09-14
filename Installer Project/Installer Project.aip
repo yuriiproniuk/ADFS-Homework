@@ -58,6 +58,8 @@
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Hosting.Abstractions.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.EventLog.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.EventLog.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Options.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
@@ -94,6 +96,14 @@
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_Swashbuckle.AspNetCore.Swagger.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_Swashbuckle.AspNetCore.SwaggerGen.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_Swashbuckle.AspNetCore.SwaggerUI.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Diagnostics.DiagnosticSource.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Diagnostics.DiagnosticSource.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Diagnostics.EventLog.Messages.dll" Value="..\A La ADFS\bin\Release\net5.0\publish\runtimes\win\lib\netcoreapp3.1"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Diagnostics.EventLog.Messages.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish\runtimes\win\lib\netcoreapp3.1"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Diagnostics.EventLog.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Diagnostics.EventLog.dll_1" Value="..\A La ADFS\bin\Release\net5.0\publish\runtimes\win\lib\netcoreapp3.1"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Diagnostics.EventLog.dll_2" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Diagnostics.EventLog.dll_3" Value="..\ADFS Plugin\bin\Release\net5.0\publish\runtimes\win\lib\netcoreapp3.1"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Formats.Asn1.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Formats.Asn1.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Formats.Asn1.dll_2" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
@@ -180,6 +190,8 @@
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Hosting.Abstractions.dll_1" Value="Microsoft.Extensions.Hosting.Abstractions.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll" Value="Microsoft.Extensions.Logging.Abstractions.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll_1" Value="Microsoft.Extensions.Logging.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.EventLog.dll" Value="Microsoft.Extensions.Logging.EventLog.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.EventLog.dll_1" Value="Microsoft.Extensions.Logging.EventLog.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.dll" Value="Microsoft.Extensions.Logging.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.dll_1" Value="Microsoft.Extensions.Logging.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Options.dll" Value="Microsoft.Extensions.Options.dll"/>
@@ -216,6 +228,14 @@
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Swashbuckle.AspNetCore.Swagger.dll" Value="Swashbuckle.AspNetCore.Swagger.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Swashbuckle.AspNetCore.SwaggerGen.dll" Value="Swashbuckle.AspNetCore.SwaggerGen.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Swashbuckle.AspNetCore.SwaggerUI.dll" Value="Swashbuckle.AspNetCore.SwaggerUI.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.DiagnosticSource.dll" Value="System.Diagnostics.DiagnosticSource.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.DiagnosticSource.dll_1" Value="System.Diagnostics.DiagnosticSource.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.EventLog.Messages.dll" Value="System.Diagnostics.EventLog.Messages.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.EventLog.Messages.dll_1" Value="System.Diagnostics.EventLog.Messages.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.EventLog.dll" Value="System.Diagnostics.EventLog.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.EventLog.dll_1" Value="System.Diagnostics.EventLog.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.EventLog.dll_2" Value="System.Diagnostics.EventLog.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.EventLog.dll_3" Value="System.Diagnostics.EventLog.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Formats.Asn1.dll" Value="System.Formats.Asn1.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Formats.Asn1.dll_1" Value="System.Formats.Asn1.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Formats.Asn1.dll_2" Value="System.Formats.Asn1.dll"/>
@@ -296,11 +316,11 @@
   <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
     <ROW Component="ADFSPlugin_PrimaryOutput" ComponentId="{16A3C80C-F4DE-4769-9754-141C66B7E04A}" Directory_="ADFSPlugin_Dir" Attributes="0" KeyPath="ADFSPlugin.deps.json" Type="0"/>
     <ROW Component="ADFSPlugin_PublishOutput_Resources" ComponentId="{7A73A0FF-D55F-436D-B7E5-4175DABD9D1A}" Directory_="Resources_1_Dir" Attributes="0" KeyPath="user_accounts.json_1" Type="0"/>
-    <ROW Component="ADFSPlugin_PublishOutput_runtimes_win_lib_netcoreapp3.1" ComponentId="{BA25496A-3AB4-4C6C-9784-F7A91CB7F6CD}" Directory_="netcoreapp3.1_1_Dir" Attributes="0" KeyPath="System.Security.Cryptography.Pkcs.dll_3"/>
+    <ROW Component="ADFSPlugin_PublishOutput_runtimes_win_lib_netcoreapp3.1" ComponentId="{BA25496A-3AB4-4C6C-9784-F7A91CB7F6CD}" Directory_="netcoreapp3.1_1_Dir" Attributes="0" KeyPath="System.Diagnostics.EventLog.Messages.dll_1"/>
     <ROW Component="ADFSPlugin_PublishOutput_runtimes_win_lib_netstandard2.0" ComponentId="{1387173A-BDB7-438E-99FE-DF2523A5C5F0}" Directory_="netstandard2.0_1_Dir" Attributes="0" KeyPath="System.Security.AccessControl.dll_3"/>
     <ROW Component="ALaADFS_PrimaryOutput" ComponentId="{DAE4D326-0E32-4FC4-AA58-7B7CFC5EF78A}" Directory_="ALaADFS_Dir" Attributes="0" KeyPath="ALaADFS.deps.json" Type="0"/>
     <ROW Component="ALaADFS_PublishOutput_Resources" ComponentId="{BE995371-B09B-4268-AE92-9E0075792514}" Directory_="Resources_Dir" Attributes="0" KeyPath="user_accounts.json" Type="0"/>
-    <ROW Component="ALaADFS_PublishOutput_runtimes_win_lib_netcoreapp3.1" ComponentId="{94AD5BD5-6EC4-49F2-B434-28E532EAC0D3}" Directory_="netcoreapp3.1_Dir" Attributes="0" KeyPath="System.Security.Cryptography.Pkcs.dll_1"/>
+    <ROW Component="ALaADFS_PublishOutput_runtimes_win_lib_netcoreapp3.1" ComponentId="{94AD5BD5-6EC4-49F2-B434-28E532EAC0D3}" Directory_="netcoreapp3.1_Dir" Attributes="0" KeyPath="System.Diagnostics.EventLog.Messages.dll"/>
     <ROW Component="ALaADFS_PublishOutput_runtimes_win_lib_netstandard2.0" ComponentId="{70969D6C-8535-4CE6-89D4-28AE498BCFE1}" Directory_="netstandard2.0_Dir" Attributes="0" KeyPath="System.Security.AccessControl.dll_1"/>
     <ROW Component="APPDIR" ComponentId="{CAB1CE05-6D16-41CB-8604-E75FCE9914D7}" Directory_="APPDIR" Attributes="0"/>
     <ROW Component="ProductInformation" ComponentId="{DE507E92-5361-429E-B407-6B050F407ABC}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
@@ -435,6 +455,16 @@
     <ROW File="System.Security.Cryptography.Pkcs.dll_5" Component_="RandomTruthApi_PublishOutput_runtimes_win_lib_netcoreapp3.1" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll_5]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.Cryptography.Pkcs.dll_5&gt;" SelfReg="false"/>
     <ROW File="System.Security.AccessControl.dll_5" Component_="RandomTruthApi_PublishOutput_runtimes_win_lib_netstandard2.0" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.AccessControl.dll_5]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.AccessControl.dll_5&gt;" SelfReg="false"/>
     <ROW File="System.Security.Cryptography.ProtectedData.dll_1" Component_="RandomTruthApi_PublishOutput_runtimes_win_lib_netstandard2.0" FileName="SYSTEM~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.ProtectedData.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.Cryptography.ProtectedData.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Logging.EventLog.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICRO~25.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.EventLog.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Logging.EventLog.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Diagnostics.DiagnosticSource.dll" Component_="ALaADFS_PrimaryOutput" FileName="SYSTEM~9.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.DiagnosticSource.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Diagnostics.DiagnosticSource.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Diagnostics.EventLog.dll" Component_="ALaADFS_PrimaryOutput" FileName="SYSTE~10.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.EventLog.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Diagnostics.EventLog.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Diagnostics.EventLog.dll_1" Component_="ALaADFS_PublishOutput_runtimes_win_lib_netcoreapp3.1" FileName="SYSTEM~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.EventLog.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Diagnostics.EventLog.dll_1&gt;" SelfReg="false"/>
+    <ROW File="System.Diagnostics.EventLog.Messages.dll" Component_="ALaADFS_PublishOutput_runtimes_win_lib_netcoreapp3.1" FileName="SYSTEM~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.EventLog.Messages.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Diagnostics.EventLog.Messages.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Logging.EventLog.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICRO~25.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.EventLog.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Logging.EventLog.dll_1&gt;" SelfReg="false"/>
+    <ROW File="System.Diagnostics.DiagnosticSource.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="SYSTEM~9.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.DiagnosticSource.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Diagnostics.DiagnosticSource.dll_1&gt;" SelfReg="false"/>
+    <ROW File="System.Diagnostics.EventLog.dll_2" Component_="ADFSPlugin_PrimaryOutput" FileName="SYSTE~10.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.EventLog.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Diagnostics.EventLog.dll_2&gt;" SelfReg="false"/>
+    <ROW File="System.Diagnostics.EventLog.dll_3" Component_="ADFSPlugin_PublishOutput_runtimes_win_lib_netcoreapp3.1" FileName="SYSTEM~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.EventLog.dll_3]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Diagnostics.EventLog.dll_3&gt;" SelfReg="false"/>
+    <ROW File="System.Diagnostics.EventLog.Messages.dll_1" Component_="ADFSPlugin_PublishOutput_runtimes_win_lib_netcoreapp3.1" FileName="SYSTEM~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.EventLog.Messages.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Diagnostics.EventLog.Messages.dll_1&gt;" SelfReg="false"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.AppPathsComponent">
     <ROW Name="AI_APPPATH_PERBUILD_ADFSPlugin.deps.json" Path="[|AI_PROPPATH_DIR_PERBUILD_ADFSPlugin.deps.json]\[|AI_PROPPATH_FILENAME_PERBUILD_ADFSPlugin.deps.json]" Type="2" Content="0"/>
@@ -488,6 +518,8 @@
     <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Hosting.Abstractions.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Hosting.Abstractions.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Hosting.Abstractions.dll_1]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Logging.EventLog.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.EventLog.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.EventLog.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Logging.EventLog.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.EventLog.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.EventLog.dll_1]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Logging.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Logging.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.dll_1]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Options.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Options.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Options.dll]" Type="2" Content="0"/>
@@ -524,6 +556,14 @@
     <ROW Name="AI_APPPATH_PERBUILD_Swashbuckle.AspNetCore.Swagger.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Swashbuckle.AspNetCore.Swagger.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Swashbuckle.AspNetCore.Swagger.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_Swashbuckle.AspNetCore.SwaggerGen.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Swashbuckle.AspNetCore.SwaggerGen.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Swashbuckle.AspNetCore.SwaggerGen.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_Swashbuckle.AspNetCore.SwaggerUI.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Swashbuckle.AspNetCore.SwaggerUI.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Swashbuckle.AspNetCore.SwaggerUI.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Diagnostics.DiagnosticSource.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Diagnostics.DiagnosticSource.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.DiagnosticSource.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Diagnostics.DiagnosticSource.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Diagnostics.DiagnosticSource.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.DiagnosticSource.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Diagnostics.EventLog.Messages.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Diagnostics.EventLog.Messages.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.EventLog.Messages.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Diagnostics.EventLog.Messages.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Diagnostics.EventLog.Messages.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.EventLog.Messages.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Diagnostics.EventLog.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Diagnostics.EventLog.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.EventLog.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Diagnostics.EventLog.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Diagnostics.EventLog.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.EventLog.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Diagnostics.EventLog.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Diagnostics.EventLog.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.EventLog.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Diagnostics.EventLog.dll_3" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Diagnostics.EventLog.dll_3]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Diagnostics.EventLog.dll_3]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_System.Formats.Asn1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Formats.Asn1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Formats.Asn1.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_System.Formats.Asn1.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Formats.Asn1.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Formats.Asn1.dll_1]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_System.Formats.Asn1.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Formats.Asn1.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Formats.Asn1.dll_2]" Type="2" Content="0"/>
@@ -801,5 +841,15 @@
     <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="System.Security.Cryptography.Pkcs.dll_5"/>
     <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="System.Security.AccessControl.dll_5"/>
     <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="System.Security.Cryptography.ProtectedData.dll_1"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Logging.EventLog.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="System.Diagnostics.DiagnosticSource.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="System.Diagnostics.EventLog.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="System.Diagnostics.EventLog.dll_1"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="System.Diagnostics.EventLog.Messages.dll"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Logging.EventLog.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="System.Diagnostics.DiagnosticSource.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="System.Diagnostics.EventLog.dll_2"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="System.Diagnostics.EventLog.dll_3"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="System.Diagnostics.EventLog.Messages.dll_1"/>
   </COMPONENT>
 </DOCUMENT>
