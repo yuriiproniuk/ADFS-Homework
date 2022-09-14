@@ -1,0 +1,54 @@
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\A La ADFS.exe
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\A La ADFS.deps.json
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\A La ADFS.runtimeconfig.json
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\A La ADFS.runtimeconfig.dev.json
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\A La ADFS.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\ref\A La ADFS.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\A La ADFS.pdb
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\ADFS Plugin.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\obj\Debug\net5.0\A La ADFS.csproj.AssemblyReference.cache
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\obj\Debug\net5.0\A La ADFS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\obj\Debug\net5.0\A La ADFS.AssemblyInfoInputs.cache
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\obj\Debug\net5.0\A La ADFS.AssemblyInfo.cs
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\obj\Debug\net5.0\A La ADFS.csproj.CoreCompileInputs.cache
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\obj\Debug\net5.0\A La ADFS.csproj.CopyComplete
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\obj\Debug\net5.0\A La ADFS.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\obj\Debug\net5.0\ref\A La ADFS.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\obj\Debug\net5.0\A La ADFS.pdb
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\obj\Debug\net5.0\A La ADFS.genruntimeconfig.cache
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\ADFS Plugin.pdb
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.AspNetCore.DataProtection.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Microsoft.Identity.Web.TokenCache.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\System.Formats.Asn1.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\System.Security.AccessControl.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\System.Security.Cryptography.Xml.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\System.Text.Json.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.AccessControl.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\appsettings.json
+C:\Sandbox\ADFS Homework\A La ADFS\A La ADFS\bin\Debug\net5.0\Resources\user_accounts.json

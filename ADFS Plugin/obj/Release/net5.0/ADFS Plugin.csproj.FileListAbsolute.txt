@@ -1,0 +1,14 @@
+C:\Sandbox\ADFS Homework\A La ADFS\ADFS Plugin\bin\Release\net5.0\appsettings.json
+C:\Sandbox\ADFS Homework\A La ADFS\ADFS Plugin\bin\Release\net5.0\Resources\user_accounts.json
+C:\Sandbox\ADFS Homework\A La ADFS\ADFS Plugin\bin\Release\net5.0\ADFS Plugin.deps.json
+C:\Sandbox\ADFS Homework\A La ADFS\ADFS Plugin\bin\Release\net5.0\ADFS Plugin.dll
+C:\Sandbox\ADFS Homework\A La ADFS\ADFS Plugin\bin\Release\net5.0\ref\ADFS Plugin.dll
+C:\Sandbox\ADFS Homework\A La ADFS\ADFS Plugin\bin\Release\net5.0\ADFS Plugin.pdb
+C:\Sandbox\ADFS Homework\A La ADFS\ADFS Plugin\obj\Release\net5.0\ADFS Plugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sandbox\ADFS Homework\A La ADFS\ADFS Plugin\obj\Release\net5.0\ADFS Plugin.AssemblyInfoInputs.cache
+C:\Sandbox\ADFS Homework\A La ADFS\ADFS Plugin\obj\Release\net5.0\ADFS Plugin.AssemblyInfo.cs
+C:\Sandbox\ADFS Homework\A La ADFS\ADFS Plugin\obj\Release\net5.0\ADFS Plugin.csproj.CoreCompileInputs.cache
+C:\Sandbox\ADFS Homework\A La ADFS\ADFS Plugin\obj\Release\net5.0\ADFS Plugin.dll
+C:\Sandbox\ADFS Homework\A La ADFS\ADFS Plugin\obj\Release\net5.0\ref\ADFS Plugin.dll
+C:\Sandbox\ADFS Homework\A La ADFS\ADFS Plugin\obj\Release\net5.0\ADFS Plugin.pdb
+C:\Sandbox\ADFS Homework\A La ADFS\ADFS Plugin\obj\Release\net5.0\ADFS Plugin.csproj.AssemblyReference.cache

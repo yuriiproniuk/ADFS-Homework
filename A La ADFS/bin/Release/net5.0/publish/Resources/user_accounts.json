@@ -1,0 +1,32 @@
+[
+  {
+    "Username": "yuriiproniuk",
+    "Domain": "softserveinc",
+    "IsActive": true
+  },
+  {
+    "Username": "oleksiiyatsenko",
+    "Domain": "softserveinc",
+    "IsActive": true
+  },
+  {
+    "Username": "solomiianpavliuk",
+    "Domain": "softserveinc",
+    "IsActive": false
+  },
+  {
+    "Username": "johndoe",
+    "Domain": "externalorg",
+    "IsActive": true
+  },
+  {
+    "Username": "foobar",
+    "Domain": "externalorg",
+    "IsActive": false
+  },
+  {
+    "Username": "lespaul",
+    "Domain": "gibsonllc",
+    "IsActive": false
+  }
+]

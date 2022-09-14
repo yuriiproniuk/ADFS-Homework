@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="19.8.1" version="19.8.1" Modules="simple" RootPath="." Language="en" Id="{8B814ED5-CA9B-414F-AE77-B63EF84ECF20}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_CURRENT_YEAR" Value="2022" ValueLocId="-"/>
+    <ROW Property="AI_PACKAGING_TOOL" Value="Advanced Installer 19.8.1 build ff1d5dfa" ValueLocId="-"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ADFSPlugin.deps.json" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ADFSPlugin.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ADFSPlugin.dll_2" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ALaADFS.deps.json" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ALaADFS.dll_1" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ALaADFS.exe" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_ALaADFS.runtimeconfig.json" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Azure.Core.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Azure.Identity.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Azure.Security.KeyVault.Certificates.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Azure.Security.KeyVault.Secrets.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.Authentication.JwtBearer.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.Authentication.OpenIdConnect.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll_2" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll_2" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.DataProtection.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.DataProtection.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.DataProtection.dll_2" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Bcl.AsyncInterfaces.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Caching.Abstractions.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Caching.Abstractions.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Caching.Memory.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Caching.Memory.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Configuration.Abstractions.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Configuration.Abstractions.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Configuration.Binder.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Configuration.Binder.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Configuration.FileExtensions.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Configuration.FileExtensions.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Configuration.Json.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Configuration.Json.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Configuration.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Configuration.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.DependencyInjection.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.DependencyInjection.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.FileProviders.Abstractions.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.FileProviders.Abstractions.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.FileProviders.Physical.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.FileProviders.Physical.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.FileSystemGlobbing.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.FileSystemGlobbing.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Hosting.Abstractions.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Hosting.Abstractions.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Options.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Options.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Primitives.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Primitives.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Client.Extensions.Msal.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Client.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Client.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Client.dll_2" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Web.Certificate.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Web.Certificateless.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Web.TokenCache.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Web.TokenCache.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Web.TokenCache.dll_2" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Web.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Abstractions.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Abstractions.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Abstractions.dll_2" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.JsonWebTokens.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Logging.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.LoggingExtensions.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Protocols.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Tokens.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Validators.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Microsoft.OpenApi.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_RandomTruthApi.deps.json" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_RandomTruthApi.dll_1" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_RandomTruthApi.exe" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_RandomTruthApi.runtimeconfig.json" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Swashbuckle.AspNetCore.Swagger.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Swashbuckle.AspNetCore.SwaggerGen.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Swashbuckle.AspNetCore.SwaggerUI.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Formats.Asn1.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Formats.Asn1.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Formats.Asn1.dll_2" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.IdentityModel.Tokens.Jwt.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Runtime.CompilerServices.Unsafe.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Runtime.CompilerServices.Unsafe.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Security.AccessControl.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Security.AccessControl.dll_1" Value="..\A La ADFS\bin\Release\net5.0\publish\runtimes\win\lib\netstandard2.0"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Security.AccessControl.dll_2" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Security.AccessControl.dll_3" Value="..\ADFS Plugin\bin\Release\net5.0\publish\runtimes\win\lib\netstandard2.0"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Security.AccessControl.dll_4" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Security.AccessControl.dll_5" Value="..\RandomTruthApi\bin\Release\net5.0\publish\runtimes\win\lib\netstandard2.0"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Pkcs.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Pkcs.dll_1" Value="..\A La ADFS\bin\Release\net5.0\publish\runtimes\win\lib\netcoreapp3.1"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Pkcs.dll_2" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Pkcs.dll_3" Value="..\ADFS Plugin\bin\Release\net5.0\publish\runtimes\win\lib\netcoreapp3.1"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Pkcs.dll_4" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Pkcs.dll_5" Value="..\RandomTruthApi\bin\Release\net5.0\publish\runtimes\win\lib\netcoreapp3.1"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.ProtectedData.dll" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.ProtectedData.dll_1" Value="..\RandomTruthApi\bin\Release\net5.0\publish\runtimes\win\lib\netstandard2.0"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Xml.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Xml.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Xml.dll_2" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Text.Encodings.Web.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Text.Encodings.Web.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Text.Encodings.Web.dll_2" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Text.Json.dll" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Text.Json.dll_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_appsettings.Development.json" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_appsettings.json" Value="..\A La ADFS\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_appsettings.json_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_appsettings.json_2" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_user_accounts.json" Value="..\A La ADFS\bin\Release\net5.0\publish\Resources"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_user_accounts.json_1" Value="..\ADFS Plugin\bin\Release\net5.0\publish\Resources"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_web.config" Value="..\RandomTruthApi\bin\Release\net5.0\publish"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ADFSPlugin.deps.json" Value="ADFS Plugin.deps.json"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ADFSPlugin.dll" Value="ADFS Plugin.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ADFSPlugin.dll_2" Value="ADFS Plugin.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ALaADFS.deps.json" Value="A La ADFS.deps.json"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ALaADFS.dll_1" Value="A La ADFS.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ALaADFS.exe" Value="A La ADFS.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_ALaADFS.runtimeconfig.json" Value="A La ADFS.runtimeconfig.json"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Azure.Core.dll" Value="Azure.Core.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Azure.Identity.dll" Value="Azure.Identity.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Azure.Security.KeyVault.Certificates.dll" Value="Azure.Security.KeyVault.Certificates.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Azure.Security.KeyVault.Secrets.dll" Value="Azure.Security.KeyVault.Secrets.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.Authentication.JwtBearer.dll" Value="Microsoft.AspNetCore.Authentication.JwtBearer.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.Authentication.OpenIdConnect.dll" Value="Microsoft.AspNetCore.Authentication.OpenIdConnect.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll" Value="Microsoft.AspNetCore.Cryptography.Internal.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll_1" Value="Microsoft.AspNetCore.Cryptography.Internal.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll_2" Value="Microsoft.AspNetCore.Cryptography.Internal.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll" Value="Microsoft.AspNetCore.DataProtection.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll_1" Value="Microsoft.AspNetCore.DataProtection.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll_2" Value="Microsoft.AspNetCore.DataProtection.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.DataProtection.dll" Value="Microsoft.AspNetCore.DataProtection.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.DataProtection.dll_1" Value="Microsoft.AspNetCore.DataProtection.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.DataProtection.dll_2" Value="Microsoft.AspNetCore.DataProtection.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Bcl.AsyncInterfaces.dll" Value="Microsoft.Bcl.AsyncInterfaces.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Caching.Abstractions.dll" Value="Microsoft.Extensions.Caching.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Caching.Abstractions.dll_1" Value="Microsoft.Extensions.Caching.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Caching.Memory.dll" Value="Microsoft.Extensions.Caching.Memory.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Caching.Memory.dll_1" Value="Microsoft.Extensions.Caching.Memory.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.Abstractions.dll" Value="Microsoft.Extensions.Configuration.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.Abstractions.dll_1" Value="Microsoft.Extensions.Configuration.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.Binder.dll" Value="Microsoft.Extensions.Configuration.Binder.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.Binder.dll_1" Value="Microsoft.Extensions.Configuration.Binder.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.FileExtensions.dll" Value="Microsoft.Extensions.Configuration.FileExtensions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.FileExtensions.dll_1" Value="Microsoft.Extensions.Configuration.FileExtensions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.Json.dll" Value="Microsoft.Extensions.Configuration.Json.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.Json.dll_1" Value="Microsoft.Extensions.Configuration.Json.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.dll" Value="Microsoft.Extensions.Configuration.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.dll_1" Value="Microsoft.Extensions.Configuration.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll" Value="Microsoft.Extensions.DependencyInjection.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll_1" Value="Microsoft.Extensions.DependencyInjection.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.DependencyInjection.dll" Value="Microsoft.Extensions.DependencyInjection.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.DependencyInjection.dll_1" Value="Microsoft.Extensions.DependencyInjection.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.FileProviders.Abstractions.dll" Value="Microsoft.Extensions.FileProviders.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.FileProviders.Abstractions.dll_1" Value="Microsoft.Extensions.FileProviders.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.FileProviders.Physical.dll" Value="Microsoft.Extensions.FileProviders.Physical.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.FileProviders.Physical.dll_1" Value="Microsoft.Extensions.FileProviders.Physical.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.FileSystemGlobbing.dll" Value="Microsoft.Extensions.FileSystemGlobbing.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.FileSystemGlobbing.dll_1" Value="Microsoft.Extensions.FileSystemGlobbing.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Hosting.Abstractions.dll" Value="Microsoft.Extensions.Hosting.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Hosting.Abstractions.dll_1" Value="Microsoft.Extensions.Hosting.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll" Value="Microsoft.Extensions.Logging.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll_1" Value="Microsoft.Extensions.Logging.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.dll" Value="Microsoft.Extensions.Logging.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.dll_1" Value="Microsoft.Extensions.Logging.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Options.dll" Value="Microsoft.Extensions.Options.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Options.dll_1" Value="Microsoft.Extensions.Options.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Primitives.dll" Value="Microsoft.Extensions.Primitives.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Primitives.dll_1" Value="Microsoft.Extensions.Primitives.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Client.Extensions.Msal.dll" Value="Microsoft.Identity.Client.Extensions.Msal.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Client.dll" Value="Microsoft.Identity.Client.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Client.dll_1" Value="Microsoft.Identity.Client.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Client.dll_2" Value="Microsoft.Identity.Client.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Web.Certificate.dll" Value="Microsoft.Identity.Web.Certificate.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Web.Certificateless.dll" Value="Microsoft.Identity.Web.Certificateless.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Web.TokenCache.dll" Value="Microsoft.Identity.Web.TokenCache.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Web.TokenCache.dll_1" Value="Microsoft.Identity.Web.TokenCache.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Web.TokenCache.dll_2" Value="Microsoft.Identity.Web.TokenCache.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Web.dll" Value="Microsoft.Identity.Web.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Abstractions.dll" Value="Microsoft.IdentityModel.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Abstractions.dll_1" Value="Microsoft.IdentityModel.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Abstractions.dll_2" Value="Microsoft.IdentityModel.Abstractions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.JsonWebTokens.dll" Value="Microsoft.IdentityModel.JsonWebTokens.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Logging.dll" Value="Microsoft.IdentityModel.Logging.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.LoggingExtensions.dll" Value="Microsoft.IdentityModel.LoggingExtensions.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" Value="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Protocols.dll" Value="Microsoft.IdentityModel.Protocols.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Tokens.dll" Value="Microsoft.IdentityModel.Tokens.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Validators.dll" Value="Microsoft.IdentityModel.Validators.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Microsoft.OpenApi.dll" Value="Microsoft.OpenApi.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll" Value="Newtonsoft.Json.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll_1" Value="Newtonsoft.Json.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_RandomTruthApi.deps.json" Value="RandomTruthApi.deps.json"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_RandomTruthApi.dll_1" Value="RandomTruthApi.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_RandomTruthApi.exe" Value="RandomTruthApi.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_RandomTruthApi.runtimeconfig.json" Value="RandomTruthApi.runtimeconfig.json"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Swashbuckle.AspNetCore.Swagger.dll" Value="Swashbuckle.AspNetCore.Swagger.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Swashbuckle.AspNetCore.SwaggerGen.dll" Value="Swashbuckle.AspNetCore.SwaggerGen.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Swashbuckle.AspNetCore.SwaggerUI.dll" Value="Swashbuckle.AspNetCore.SwaggerUI.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Formats.Asn1.dll" Value="System.Formats.Asn1.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Formats.Asn1.dll_1" Value="System.Formats.Asn1.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Formats.Asn1.dll_2" Value="System.Formats.Asn1.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.IdentityModel.Tokens.Jwt.dll" Value="System.IdentityModel.Tokens.Jwt.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Runtime.CompilerServices.Unsafe.dll" Value="System.Runtime.CompilerServices.Unsafe.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Runtime.CompilerServices.Unsafe.dll_1" Value="System.Runtime.CompilerServices.Unsafe.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Security.AccessControl.dll" Value="System.Security.AccessControl.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Security.AccessControl.dll_1" Value="System.Security.AccessControl.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Security.AccessControl.dll_2" Value="System.Security.AccessControl.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Security.AccessControl.dll_3" Value="System.Security.AccessControl.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Security.AccessControl.dll_4" Value="System.Security.AccessControl.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Security.AccessControl.dll_5" Value="System.Security.AccessControl.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll" Value="System.Security.Cryptography.Pkcs.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll_1" Value="System.Security.Cryptography.Pkcs.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll_2" Value="System.Security.Cryptography.Pkcs.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll_3" Value="System.Security.Cryptography.Pkcs.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll_4" Value="System.Security.Cryptography.Pkcs.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll_5" Value="System.Security.Cryptography.Pkcs.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.ProtectedData.dll" Value="System.Security.Cryptography.ProtectedData.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.ProtectedData.dll_1" Value="System.Security.Cryptography.ProtectedData.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Xml.dll" Value="System.Security.Cryptography.Xml.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Xml.dll_1" Value="System.Security.Cryptography.Xml.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Xml.dll_2" Value="System.Security.Cryptography.Xml.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Text.Encodings.Web.dll" Value="System.Text.Encodings.Web.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Text.Encodings.Web.dll_1" Value="System.Text.Encodings.Web.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Text.Encodings.Web.dll_2" Value="System.Text.Encodings.Web.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Text.Json.dll" Value="System.Text.Json.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Text.Json.dll_1" Value="System.Text.Json.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_appsettings.Development.json" Value="appsettings.Development.json"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_appsettings.json" Value="appsettings.json"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_appsettings.json_1" Value="appsettings.json"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_appsettings.json_2" Value="appsettings.json"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_user_accounts.json" Value="user_accounts.json"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_user_accounts.json_1" Value="user_accounts.json"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_web.config" Value="web.config"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="Manufacturer" Value="Your Company"/>
+    <ROW Property="ProductCode" Value="1033:{61DB7E0D-EDE5-42B8-9871-5570B9EAD0D5} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="Your Application"/>
+    <ROW Property="ProductVersion" Value="1.0.0"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{75FCA78A-2F9C-4416-98DE-87E839EC7012}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="ADFSPlugin_Dir" Directory_Parent="APPDIR" DefaultDir="ADFSPL~1|ADFS Plugin"/>
+    <ROW Directory="ALaADFS_Dir" Directory_Parent="APPDIR" DefaultDir="ALAADF~1|A La ADFS"/>
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="RandomTruthApi_Dir" Directory_Parent="APPDIR" DefaultDir="RANDOM~1|RandomTruthApi"/>
+    <ROW Directory="Resources_1_Dir" Directory_Parent="ADFSPlugin_Dir" DefaultDir="RESOUR~1|Resources"/>
+    <ROW Directory="Resources_Dir" Directory_Parent="ALaADFS_Dir" DefaultDir="RESOUR~1|Resources"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="lib_1_Dir" Directory_Parent="win_1_Dir" DefaultDir="lib"/>
+    <ROW Directory="lib_2_Dir" Directory_Parent="win_2_Dir" DefaultDir="lib"/>
+    <ROW Directory="lib_Dir" Directory_Parent="win_Dir" DefaultDir="lib"/>
+    <ROW Directory="netcoreapp3.1_1_Dir" Directory_Parent="lib_1_Dir" DefaultDir="NETCOR~1.1|netcoreapp3.1"/>
+    <ROW Directory="netcoreapp3.1_2_Dir" Directory_Parent="lib_2_Dir" DefaultDir="NETCOR~1.1|netcoreapp3.1"/>
+    <ROW Directory="netcoreapp3.1_Dir" Directory_Parent="lib_Dir" DefaultDir="NETCOR~1.1|netcoreapp3.1"/>
+    <ROW Directory="netstandard2.0_1_Dir" Directory_Parent="lib_1_Dir" DefaultDir="NETSTA~1.0|netstandard2.0"/>
+    <ROW Directory="netstandard2.0_2_Dir" Directory_Parent="lib_2_Dir" DefaultDir="NETSTA~1.0|netstandard2.0"/>
+    <ROW Directory="netstandard2.0_Dir" Directory_Parent="lib_Dir" DefaultDir="NETSTA~1.0|netstandard2.0"/>
+    <ROW Directory="runtimes_1_Dir" Directory_Parent="ADFSPlugin_Dir" DefaultDir="runtimes"/>
+    <ROW Directory="runtimes_2_Dir" Directory_Parent="RandomTruthApi_Dir" DefaultDir="runtimes"/>
+    <ROW Directory="runtimes_Dir" Directory_Parent="ALaADFS_Dir" DefaultDir="runtimes"/>
+    <ROW Directory="win_1_Dir" Directory_Parent="runtimes_1_Dir" DefaultDir="win"/>
+    <ROW Directory="win_2_Dir" Directory_Parent="runtimes_2_Dir" DefaultDir="win"/>
+    <ROW Directory="win_Dir" Directory_Parent="runtimes_Dir" DefaultDir="win"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="ADFSPlugin_PrimaryOutput" ComponentId="{16A3C80C-F4DE-4769-9754-141C66B7E04A}" Directory_="ADFSPlugin_Dir" Attributes="0" KeyPath="ADFSPlugin.deps.json" Type="0"/>
+    <ROW Component="ADFSPlugin_PublishOutput_Resources" ComponentId="{7A73A0FF-D55F-436D-B7E5-4175DABD9D1A}" Directory_="Resources_1_Dir" Attributes="0" KeyPath="user_accounts.json_1" Type="0"/>
+    <ROW Component="ADFSPlugin_PublishOutput_runtimes_win_lib_netcoreapp3.1" ComponentId="{BA25496A-3AB4-4C6C-9784-F7A91CB7F6CD}" Directory_="netcoreapp3.1_1_Dir" Attributes="0" KeyPath="System.Security.Cryptography.Pkcs.dll_3"/>
+    <ROW Component="ADFSPlugin_PublishOutput_runtimes_win_lib_netstandard2.0" ComponentId="{1387173A-BDB7-438E-99FE-DF2523A5C5F0}" Directory_="netstandard2.0_1_Dir" Attributes="0" KeyPath="System.Security.AccessControl.dll_3"/>
+    <ROW Component="ALaADFS_PrimaryOutput" ComponentId="{DAE4D326-0E32-4FC4-AA58-7B7CFC5EF78A}" Directory_="ALaADFS_Dir" Attributes="0" KeyPath="ALaADFS.deps.json" Type="0"/>
+    <ROW Component="ALaADFS_PublishOutput_Resources" ComponentId="{BE995371-B09B-4268-AE92-9E0075792514}" Directory_="Resources_Dir" Attributes="0" KeyPath="user_accounts.json" Type="0"/>
+    <ROW Component="ALaADFS_PublishOutput_runtimes_win_lib_netcoreapp3.1" ComponentId="{94AD5BD5-6EC4-49F2-B434-28E532EAC0D3}" Directory_="netcoreapp3.1_Dir" Attributes="0" KeyPath="System.Security.Cryptography.Pkcs.dll_1"/>
+    <ROW Component="ALaADFS_PublishOutput_runtimes_win_lib_netstandard2.0" ComponentId="{70969D6C-8535-4CE6-89D4-28AE498BCFE1}" Directory_="netstandard2.0_Dir" Attributes="0" KeyPath="System.Security.AccessControl.dll_1"/>
+    <ROW Component="APPDIR" ComponentId="{CAB1CE05-6D16-41CB-8604-E75FCE9914D7}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="ProductInformation" ComponentId="{DE507E92-5361-429E-B407-6B050F407ABC}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="RandomTruthApi_PrimaryOutput" ComponentId="{EDF522F5-79EF-4F4F-86BA-5154E296DBFE}" Directory_="RandomTruthApi_Dir" Attributes="0" KeyPath="appsettings.Development.json" Type="0"/>
+    <ROW Component="RandomTruthApi_PublishOutput_runtimes_win_lib_netcoreapp3.1" ComponentId="{98BDAF6F-12E9-4F96-A0A7-2CE8358B1593}" Directory_="netcoreapp3.1_2_Dir" Attributes="0" KeyPath="System.Security.Cryptography.Pkcs.dll_5"/>
+    <ROW Component="RandomTruthApi_PublishOutput_runtimes_win_lib_netstandard2.0" ComponentId="{F5046872-9D76-4FD2-AF3B-C12B126BC57A}" Directory_="netstandard2.0_2_Dir" Attributes="0" KeyPath="System.Security.Cryptography.ProtectedData.dll_1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="ALaADFS.deps.json" Component_="ALaADFS_PrimaryOutput" FileName="ALAADF~2.JSO|[|AI_PROPPATH_FILENAME_PERBUILD_ALaADFS.deps.json]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ALaADFS.deps.json&gt;" SelfReg="false"/>
+    <ROW File="ALaADFS.dll_1" Component_="ALaADFS_PrimaryOutput" FileName="ALAADF~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_ALaADFS.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ALaADFS.dll_1&gt;" SelfReg="false"/>
+    <ROW File="ALaADFS.exe" Component_="ALaADFS_PrimaryOutput" FileName="ALAADF~2.EXE|[|AI_PROPPATH_FILENAME_PERBUILD_ALaADFS.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ALaADFS.exe&gt;" SelfReg="false" DigSign="true"/>
+    <ROW File="ALaADFS.runtimeconfig.json" Component_="ALaADFS_PrimaryOutput" FileName="ALAADF~3.JSO|[|AI_PROPPATH_FILENAME_PERBUILD_ALaADFS.runtimeconfig.json]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ALaADFS.runtimeconfig.json&gt;" SelfReg="false"/>
+    <ROW File="ADFSPlugin.dll" Component_="ALaADFS_PrimaryOutput" FileName="ADFSPL~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_ADFSPlugin.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ADFSPlugin.dll&gt;" SelfReg="false"/>
+    <ROW File="appsettings.json" Component_="ALaADFS_PrimaryOutput" FileName="APPSET~2.JSO|[|AI_PROPPATH_FILENAME_PERBUILD_appsettings.json]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_appsettings.json&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AspNetCore.Cryptography.Internal.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICROS~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AspNetCore.DataProtection.Abstractions.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICROS~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AspNetCore.DataProtection.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICROS~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.DataProtection.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AspNetCore.DataProtection.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Caching.Abstractions.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICROS~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Caching.Abstractions.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Caching.Abstractions.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Caching.Memory.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICROS~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Caching.Memory.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Caching.Memory.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Configuration.Abstractions.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICROS~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.Abstractions.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Configuration.Abstractions.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Configuration.Binder.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICROS~8.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.Binder.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Configuration.Binder.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Configuration.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICROS~9.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Configuration.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Configuration.FileExtensions.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICRO~10.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.FileExtensions.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Configuration.FileExtensions.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Configuration.Json.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICRO~11.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.Json.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Configuration.Json.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.DependencyInjection.Abstractions.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICRO~12.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.DependencyInjection.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICRO~13.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.DependencyInjection.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.DependencyInjection.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.FileProviders.Abstractions.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICRO~14.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.FileProviders.Abstractions.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.FileProviders.Abstractions.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.FileProviders.Physical.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICRO~15.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.FileProviders.Physical.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.FileProviders.Physical.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.FileSystemGlobbing.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICRO~16.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.FileSystemGlobbing.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.FileSystemGlobbing.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Hosting.Abstractions.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICRO~17.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Hosting.Abstractions.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Hosting.Abstractions.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Logging.Abstractions.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICRO~18.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Logging.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICRO~19.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Logging.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Options.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICRO~20.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Options.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Options.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Primitives.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICRO~21.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Primitives.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Primitives.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Identity.Client.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICRO~22.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Client.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Identity.Client.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Identity.Web.TokenCache.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICRO~23.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Web.TokenCache.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Identity.Web.TokenCache.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.IdentityModel.Abstractions.dll" Component_="ALaADFS_PrimaryOutput" FileName="MICRO~24.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Abstractions.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Abstractions.dll&gt;" SelfReg="false"/>
+    <ROW File="Newtonsoft.Json.dll" Component_="ALaADFS_PrimaryOutput" FileName="NEWTON~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Newtonsoft.Json.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Formats.Asn1.dll" Component_="ALaADFS_PrimaryOutput" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Formats.Asn1.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Formats.Asn1.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Runtime.CompilerServices.Unsafe.dll" Component_="ALaADFS_PrimaryOutput" FileName="SYSTEM~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Runtime.CompilerServices.Unsafe.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Runtime.CompilerServices.Unsafe.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Security.AccessControl.dll" Component_="ALaADFS_PrimaryOutput" FileName="SYSTEM~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.AccessControl.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.AccessControl.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Security.Cryptography.Pkcs.dll" Component_="ALaADFS_PrimaryOutput" FileName="SYSTEM~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.Cryptography.Pkcs.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Security.Cryptography.Xml.dll" Component_="ALaADFS_PrimaryOutput" FileName="SYSTEM~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Xml.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.Cryptography.Xml.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Text.Encodings.Web.dll" Component_="ALaADFS_PrimaryOutput" FileName="SYSTEM~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Text.Encodings.Web.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Text.Encodings.Web.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Text.Json.dll" Component_="ALaADFS_PrimaryOutput" FileName="SYSTEM~8.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Text.Json.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Text.Json.dll&gt;" SelfReg="false"/>
+    <ROW File="user_accounts.json" Component_="ALaADFS_PublishOutput_Resources" FileName="USER_A~2.JSO|[|AI_PROPPATH_FILENAME_PERBUILD_user_accounts.json]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_user_accounts.json&gt;" SelfReg="false"/>
+    <ROW File="System.Security.Cryptography.Pkcs.dll_1" Component_="ALaADFS_PublishOutput_runtimes_win_lib_netcoreapp3.1" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.Cryptography.Pkcs.dll_1&gt;" SelfReg="false"/>
+    <ROW File="System.Security.AccessControl.dll_1" Component_="ALaADFS_PublishOutput_runtimes_win_lib_netstandard2.0" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.AccessControl.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.AccessControl.dll_1&gt;" SelfReg="false"/>
+    <ROW File="ADFSPlugin.deps.json" Component_="ADFSPlugin_PrimaryOutput" FileName="ADFSPL~2.JSO|[|AI_PROPPATH_FILENAME_PERBUILD_ADFSPlugin.deps.json]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ADFSPlugin.deps.json&gt;" SelfReg="false"/>
+    <ROW File="ADFSPlugin.dll_2" Component_="ADFSPlugin_PrimaryOutput" FileName="ADFSPL~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_ADFSPlugin.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_ADFSPlugin.dll_2&gt;" SelfReg="false"/>
+    <ROW File="appsettings.json_1" Component_="ADFSPlugin_PrimaryOutput" FileName="APPSET~2.JSO|[|AI_PROPPATH_FILENAME_PERBUILD_appsettings.json_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_appsettings.json_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AspNetCore.Cryptography.Internal.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICROS~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AspNetCore.DataProtection.Abstractions.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICROS~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AspNetCore.DataProtection.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICROS~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.DataProtection.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AspNetCore.DataProtection.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Caching.Abstractions.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICROS~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Caching.Abstractions.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Caching.Abstractions.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Caching.Memory.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICROS~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Caching.Memory.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Caching.Memory.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Configuration.Abstractions.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICROS~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.Abstractions.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Configuration.Abstractions.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Configuration.Binder.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICROS~8.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.Binder.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Configuration.Binder.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Configuration.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICROS~9.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Configuration.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Configuration.FileExtensions.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICRO~10.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.FileExtensions.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Configuration.FileExtensions.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Configuration.Json.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICRO~11.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.Json.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Configuration.Json.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.DependencyInjection.Abstractions.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICRO~12.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.DependencyInjection.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICRO~13.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.DependencyInjection.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.DependencyInjection.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.FileProviders.Abstractions.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICRO~14.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.FileProviders.Abstractions.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.FileProviders.Abstractions.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.FileProviders.Physical.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICRO~15.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.FileProviders.Physical.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.FileProviders.Physical.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.FileSystemGlobbing.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICRO~16.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.FileSystemGlobbing.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.FileSystemGlobbing.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Hosting.Abstractions.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICRO~17.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Hosting.Abstractions.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Hosting.Abstractions.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Logging.Abstractions.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICRO~18.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Logging.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICRO~19.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Logging.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Options.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICRO~20.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Options.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Options.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Extensions.Primitives.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICRO~21.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Primitives.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Extensions.Primitives.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Identity.Client.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICRO~22.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Client.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Identity.Client.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Identity.Web.TokenCache.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICRO~23.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Web.TokenCache.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Identity.Web.TokenCache.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.IdentityModel.Abstractions.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="MICRO~24.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Abstractions.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Abstractions.dll_1&gt;" SelfReg="false"/>
+    <ROW File="Newtonsoft.Json.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="NEWTON~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Newtonsoft.Json.dll_1&gt;" SelfReg="false"/>
+    <ROW File="System.Formats.Asn1.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Formats.Asn1.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Formats.Asn1.dll_1&gt;" SelfReg="false"/>
+    <ROW File="System.Runtime.CompilerServices.Unsafe.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="SYSTEM~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Runtime.CompilerServices.Unsafe.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Runtime.CompilerServices.Unsafe.dll_1&gt;" SelfReg="false"/>
+    <ROW File="System.Security.AccessControl.dll_2" Component_="ADFSPlugin_PrimaryOutput" FileName="SYSTEM~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.AccessControl.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.AccessControl.dll_2&gt;" SelfReg="false"/>
+    <ROW File="System.Security.Cryptography.Pkcs.dll_2" Component_="ADFSPlugin_PrimaryOutput" FileName="SYSTEM~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.Cryptography.Pkcs.dll_2&gt;" SelfReg="false"/>
+    <ROW File="System.Security.Cryptography.Xml.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="SYSTEM~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Xml.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.Cryptography.Xml.dll_1&gt;" SelfReg="false"/>
+    <ROW File="System.Text.Encodings.Web.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="SYSTEM~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Text.Encodings.Web.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Text.Encodings.Web.dll_1&gt;" SelfReg="false"/>
+    <ROW File="System.Text.Json.dll_1" Component_="ADFSPlugin_PrimaryOutput" FileName="SYSTEM~8.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Text.Json.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Text.Json.dll_1&gt;" SelfReg="false"/>
+    <ROW File="user_accounts.json_1" Component_="ADFSPlugin_PublishOutput_Resources" FileName="USER_A~2.JSO|[|AI_PROPPATH_FILENAME_PERBUILD_user_accounts.json_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_user_accounts.json_1&gt;" SelfReg="false"/>
+    <ROW File="System.Security.Cryptography.Pkcs.dll_3" Component_="ADFSPlugin_PublishOutput_runtimes_win_lib_netcoreapp3.1" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll_3]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.Cryptography.Pkcs.dll_3&gt;" SelfReg="false"/>
+    <ROW File="System.Security.AccessControl.dll_3" Component_="ADFSPlugin_PublishOutput_runtimes_win_lib_netstandard2.0" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.AccessControl.dll_3]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.AccessControl.dll_3&gt;" SelfReg="false"/>
+    <ROW File="appsettings.Development.json" Component_="RandomTruthApi_PrimaryOutput" FileName="APPSET~2.JSO|[|AI_PROPPATH_FILENAME_PERBUILD_appsettings.Development.json]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_appsettings.Development.json&gt;" SelfReg="false"/>
+    <ROW File="appsettings.json_2" Component_="RandomTruthApi_PrimaryOutput" FileName="APPSET~3.JSO|[|AI_PROPPATH_FILENAME_PERBUILD_appsettings.json_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_appsettings.json_2&gt;" SelfReg="false"/>
+    <ROW File="Azure.Core.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="AZUREC~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Azure.Core.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Azure.Core.dll&gt;" SelfReg="false"/>
+    <ROW File="Azure.Identity.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="AZUREI~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Azure.Identity.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Azure.Identity.dll&gt;" SelfReg="false"/>
+    <ROW File="Azure.Security.KeyVault.Certificates.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="AZURES~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Azure.Security.KeyVault.Certificates.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Azure.Security.KeyVault.Certificates.dll&gt;" SelfReg="false"/>
+    <ROW File="Azure.Security.KeyVault.Secrets.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="AZURES~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Azure.Security.KeyVault.Secrets.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Azure.Security.KeyVault.Secrets.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AspNetCore.Authentication.JwtBearer.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="MICROS~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.Authentication.JwtBearer.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AspNetCore.Authentication.JwtBearer.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AspNetCore.Authentication.OpenIdConnect.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="MICROS~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.Authentication.OpenIdConnect.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AspNetCore.Authentication.OpenIdConnect.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AspNetCore.Cryptography.Internal.dll_2" Component_="RandomTruthApi_PrimaryOutput" FileName="MICROS~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll_2&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AspNetCore.DataProtection.Abstractions.dll_2" Component_="RandomTruthApi_PrimaryOutput" FileName="MICROS~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll_2&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.AspNetCore.DataProtection.dll_2" Component_="RandomTruthApi_PrimaryOutput" FileName="MICROS~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.DataProtection.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.AspNetCore.DataProtection.dll_2&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Bcl.AsyncInterfaces.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="MICROS~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Bcl.AsyncInterfaces.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Bcl.AsyncInterfaces.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Identity.Client.dll_2" Component_="RandomTruthApi_PrimaryOutput" FileName="MICROS~8.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Client.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Identity.Client.dll_2&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Identity.Client.Extensions.Msal.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="MICROS~9.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Client.Extensions.Msal.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Identity.Client.Extensions.Msal.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Identity.Web.Certificate.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="MICRO~10.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Web.Certificate.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Identity.Web.Certificate.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Identity.Web.Certificateless.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="MICRO~11.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Web.Certificateless.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Identity.Web.Certificateless.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Identity.Web.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="MICRO~12.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Web.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Identity.Web.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.Identity.Web.TokenCache.dll_2" Component_="RandomTruthApi_PrimaryOutput" FileName="MICRO~13.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Web.TokenCache.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.Identity.Web.TokenCache.dll_2&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.IdentityModel.Abstractions.dll_2" Component_="RandomTruthApi_PrimaryOutput" FileName="MICRO~14.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Abstractions.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Abstractions.dll_2&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.IdentityModel.JsonWebTokens.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="MICRO~15.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.JsonWebTokens.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.IdentityModel.JsonWebTokens.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.IdentityModel.Logging.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="MICRO~16.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Logging.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Logging.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.IdentityModel.LoggingExtensions.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="MICRO~17.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.LoggingExtensions.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.IdentityModel.LoggingExtensions.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.IdentityModel.Protocols.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="MICRO~18.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Protocols.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Protocols.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="MICRO~19.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Protocols.OpenIdConnect.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Protocols.OpenIdConnect.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.IdentityModel.Tokens.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="MICRO~20.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Tokens.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Tokens.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.IdentityModel.Validators.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="MICRO~21.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Validators.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Validators.dll&gt;" SelfReg="false"/>
+    <ROW File="Microsoft.OpenApi.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="MICRO~22.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.OpenApi.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Microsoft.OpenApi.dll&gt;" SelfReg="false"/>
+    <ROW File="RandomTruthApi.deps.json" Component_="RandomTruthApi_PrimaryOutput" FileName="RANDOM~2.JSO|[|AI_PROPPATH_FILENAME_PERBUILD_RandomTruthApi.deps.json]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_RandomTruthApi.deps.json&gt;" SelfReg="false"/>
+    <ROW File="RandomTruthApi.dll_1" Component_="RandomTruthApi_PrimaryOutput" FileName="RANDOM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_RandomTruthApi.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_RandomTruthApi.dll_1&gt;" SelfReg="false"/>
+    <ROW File="RandomTruthApi.exe" Component_="RandomTruthApi_PrimaryOutput" FileName="RANDOM~2.EXE|[|AI_PROPPATH_FILENAME_PERBUILD_RandomTruthApi.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_RandomTruthApi.exe&gt;" SelfReg="false" DigSign="true"/>
+    <ROW File="RandomTruthApi.runtimeconfig.json" Component_="RandomTruthApi_PrimaryOutput" FileName="RANDOM~3.JSO|[|AI_PROPPATH_FILENAME_PERBUILD_RandomTruthApi.runtimeconfig.json]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_RandomTruthApi.runtimeconfig.json&gt;" SelfReg="false"/>
+    <ROW File="Swashbuckle.AspNetCore.Swagger.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="SWASHB~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Swashbuckle.AspNetCore.Swagger.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Swashbuckle.AspNetCore.Swagger.dll&gt;" SelfReg="false"/>
+    <ROW File="Swashbuckle.AspNetCore.SwaggerGen.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="SWASHB~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Swashbuckle.AspNetCore.SwaggerGen.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Swashbuckle.AspNetCore.SwaggerGen.dll&gt;" SelfReg="false"/>
+    <ROW File="Swashbuckle.AspNetCore.SwaggerUI.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="SWASHB~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_Swashbuckle.AspNetCore.SwaggerUI.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Swashbuckle.AspNetCore.SwaggerUI.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Formats.Asn1.dll_2" Component_="RandomTruthApi_PrimaryOutput" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Formats.Asn1.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Formats.Asn1.dll_2&gt;" SelfReg="false"/>
+    <ROW File="System.IdentityModel.Tokens.Jwt.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="SYSTEM~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.IdentityModel.Tokens.Jwt.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.IdentityModel.Tokens.Jwt.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Security.AccessControl.dll_4" Component_="RandomTruthApi_PrimaryOutput" FileName="SYSTEM~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.AccessControl.dll_4]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.AccessControl.dll_4&gt;" SelfReg="false"/>
+    <ROW File="System.Security.Cryptography.Pkcs.dll_4" Component_="RandomTruthApi_PrimaryOutput" FileName="SYSTEM~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll_4]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.Cryptography.Pkcs.dll_4&gt;" SelfReg="false"/>
+    <ROW File="System.Security.Cryptography.ProtectedData.dll" Component_="RandomTruthApi_PrimaryOutput" FileName="SYSTEM~6.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.ProtectedData.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.Cryptography.ProtectedData.dll&gt;" SelfReg="false"/>
+    <ROW File="System.Security.Cryptography.Xml.dll_2" Component_="RandomTruthApi_PrimaryOutput" FileName="SYSTEM~7.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Xml.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.Cryptography.Xml.dll_2&gt;" SelfReg="false"/>
+    <ROW File="System.Text.Encodings.Web.dll_2" Component_="RandomTruthApi_PrimaryOutput" FileName="SYSTEM~8.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Text.Encodings.Web.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Text.Encodings.Web.dll_2&gt;" SelfReg="false"/>
+    <ROW File="web.config" Component_="RandomTruthApi_PrimaryOutput" FileName="WEB~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_web.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_web.config&gt;" SelfReg="false"/>
+    <ROW File="System.Security.Cryptography.Pkcs.dll_5" Component_="RandomTruthApi_PublishOutput_runtimes_win_lib_netcoreapp3.1" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll_5]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.Cryptography.Pkcs.dll_5&gt;" SelfReg="false"/>
+    <ROW File="System.Security.AccessControl.dll_5" Component_="RandomTruthApi_PublishOutput_runtimes_win_lib_netstandard2.0" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.AccessControl.dll_5]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.AccessControl.dll_5&gt;" SelfReg="false"/>
+    <ROW File="System.Security.Cryptography.ProtectedData.dll_1" Component_="RandomTruthApi_PublishOutput_runtimes_win_lib_netstandard2.0" FileName="SYSTEM~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.ProtectedData.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Security.Cryptography.ProtectedData.dll_1&gt;" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.AppPathsComponent">
+    <ROW Name="AI_APPPATH_PERBUILD_ADFSPlugin.deps.json" Path="[|AI_PROPPATH_DIR_PERBUILD_ADFSPlugin.deps.json]\[|AI_PROPPATH_FILENAME_PERBUILD_ADFSPlugin.deps.json]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ADFSPlugin.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_ADFSPlugin.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_ADFSPlugin.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ADFSPlugin.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_ADFSPlugin.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_ADFSPlugin.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ALaADFS.deps.json" Path="[|AI_PROPPATH_DIR_PERBUILD_ALaADFS.deps.json]\[|AI_PROPPATH_FILENAME_PERBUILD_ALaADFS.deps.json]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ALaADFS.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_ALaADFS.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_ALaADFS.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ALaADFS.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_ALaADFS.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_ALaADFS.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_ALaADFS.runtimeconfig.json" Path="[|AI_PROPPATH_DIR_PERBUILD_ALaADFS.runtimeconfig.json]\[|AI_PROPPATH_FILENAME_PERBUILD_ALaADFS.runtimeconfig.json]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Azure.Core.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Azure.Core.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Azure.Core.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Azure.Identity.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Azure.Identity.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Azure.Identity.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Azure.Security.KeyVault.Certificates.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Azure.Security.KeyVault.Certificates.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Azure.Security.KeyVault.Certificates.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Azure.Security.KeyVault.Secrets.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Azure.Security.KeyVault.Secrets.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Azure.Security.KeyVault.Secrets.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AspNetCore.Authentication.JwtBearer.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.Authentication.JwtBearer.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.Authentication.JwtBearer.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AspNetCore.Authentication.OpenIdConnect.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.Authentication.OpenIdConnect.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.Authentication.OpenIdConnect.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.Cryptography.Internal.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.DataProtection.Abstractions.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AspNetCore.DataProtection.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.DataProtection.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.DataProtection.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AspNetCore.DataProtection.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.DataProtection.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.DataProtection.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.AspNetCore.DataProtection.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.AspNetCore.DataProtection.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.AspNetCore.DataProtection.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Bcl.AsyncInterfaces.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Bcl.AsyncInterfaces.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Bcl.AsyncInterfaces.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Caching.Abstractions.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Caching.Abstractions.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Caching.Abstractions.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Caching.Abstractions.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Caching.Abstractions.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Caching.Abstractions.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Caching.Memory.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Caching.Memory.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Caching.Memory.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Caching.Memory.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Caching.Memory.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Caching.Memory.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Configuration.Abstractions.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Configuration.Abstractions.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.Abstractions.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Configuration.Abstractions.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Configuration.Abstractions.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.Abstractions.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Configuration.Binder.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Configuration.Binder.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.Binder.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Configuration.Binder.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Configuration.Binder.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.Binder.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Configuration.FileExtensions.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Configuration.FileExtensions.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.FileExtensions.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Configuration.FileExtensions.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Configuration.FileExtensions.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.FileExtensions.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Configuration.Json.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Configuration.Json.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.Json.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Configuration.Json.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Configuration.Json.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.Json.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Configuration.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Configuration.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Configuration.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Configuration.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Configuration.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.DependencyInjection.Abstractions.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.DependencyInjection.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.DependencyInjection.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.DependencyInjection.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.DependencyInjection.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.DependencyInjection.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.DependencyInjection.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.FileProviders.Abstractions.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.FileProviders.Abstractions.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.FileProviders.Abstractions.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.FileProviders.Abstractions.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.FileProviders.Abstractions.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.FileProviders.Abstractions.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.FileProviders.Physical.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.FileProviders.Physical.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.FileProviders.Physical.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.FileProviders.Physical.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.FileProviders.Physical.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.FileProviders.Physical.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.FileSystemGlobbing.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.FileSystemGlobbing.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.FileSystemGlobbing.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.FileSystemGlobbing.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.FileSystemGlobbing.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.FileSystemGlobbing.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Hosting.Abstractions.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Hosting.Abstractions.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Hosting.Abstractions.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Hosting.Abstractions.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Hosting.Abstractions.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Hosting.Abstractions.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.Abstractions.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Logging.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Logging.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Logging.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Logging.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Options.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Options.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Options.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Options.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Options.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Options.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Primitives.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Primitives.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Primitives.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Extensions.Primitives.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Extensions.Primitives.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Extensions.Primitives.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Identity.Client.Extensions.Msal.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Client.Extensions.Msal.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Client.Extensions.Msal.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Identity.Client.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Client.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Client.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Identity.Client.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Client.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Client.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Identity.Client.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Client.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Client.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Identity.Web.Certificate.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Web.Certificate.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Web.Certificate.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Identity.Web.Certificateless.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Web.Certificateless.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Web.Certificateless.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Identity.Web.TokenCache.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Web.TokenCache.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Web.TokenCache.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Identity.Web.TokenCache.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Web.TokenCache.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Web.TokenCache.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Identity.Web.TokenCache.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Web.TokenCache.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Web.TokenCache.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.Identity.Web.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.Identity.Web.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.Identity.Web.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Abstractions.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Abstractions.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Abstractions.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Abstractions.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Abstractions.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Abstractions.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Abstractions.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Abstractions.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Abstractions.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.IdentityModel.JsonWebTokens.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.JsonWebTokens.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.JsonWebTokens.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Logging.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Logging.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Logging.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.IdentityModel.LoggingExtensions.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.LoggingExtensions.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.LoggingExtensions.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Protocols.OpenIdConnect.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Protocols.OpenIdConnect.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Protocols.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Protocols.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Protocols.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Tokens.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Tokens.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Tokens.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.IdentityModel.Validators.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.IdentityModel.Validators.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.IdentityModel.Validators.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Microsoft.OpenApi.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Microsoft.OpenApi.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Microsoft.OpenApi.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Newtonsoft.Json.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Newtonsoft.Json.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_RandomTruthApi.deps.json" Path="[|AI_PROPPATH_DIR_PERBUILD_RandomTruthApi.deps.json]\[|AI_PROPPATH_FILENAME_PERBUILD_RandomTruthApi.deps.json]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_RandomTruthApi.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_RandomTruthApi.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_RandomTruthApi.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_RandomTruthApi.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_RandomTruthApi.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_RandomTruthApi.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_RandomTruthApi.runtimeconfig.json" Path="[|AI_PROPPATH_DIR_PERBUILD_RandomTruthApi.runtimeconfig.json]\[|AI_PROPPATH_FILENAME_PERBUILD_RandomTruthApi.runtimeconfig.json]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Swashbuckle.AspNetCore.Swagger.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Swashbuckle.AspNetCore.Swagger.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Swashbuckle.AspNetCore.Swagger.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Swashbuckle.AspNetCore.SwaggerGen.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Swashbuckle.AspNetCore.SwaggerGen.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Swashbuckle.AspNetCore.SwaggerGen.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Swashbuckle.AspNetCore.SwaggerUI.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Swashbuckle.AspNetCore.SwaggerUI.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Swashbuckle.AspNetCore.SwaggerUI.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Formats.Asn1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Formats.Asn1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Formats.Asn1.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Formats.Asn1.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Formats.Asn1.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Formats.Asn1.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Formats.Asn1.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Formats.Asn1.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Formats.Asn1.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.IdentityModel.Tokens.Jwt.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.IdentityModel.Tokens.Jwt.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.IdentityModel.Tokens.Jwt.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Runtime.CompilerServices.Unsafe.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Runtime.CompilerServices.Unsafe.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Runtime.CompilerServices.Unsafe.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Runtime.CompilerServices.Unsafe.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Runtime.CompilerServices.Unsafe.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Runtime.CompilerServices.Unsafe.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Security.AccessControl.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Security.AccessControl.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.AccessControl.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Security.AccessControl.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Security.AccessControl.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.AccessControl.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Security.AccessControl.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Security.AccessControl.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.AccessControl.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Security.AccessControl.dll_3" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Security.AccessControl.dll_3]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.AccessControl.dll_3]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Security.AccessControl.dll_4" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Security.AccessControl.dll_4]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.AccessControl.dll_4]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Security.AccessControl.dll_5" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Security.AccessControl.dll_5]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.AccessControl.dll_5]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Security.Cryptography.Pkcs.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Pkcs.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Security.Cryptography.Pkcs.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Pkcs.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Security.Cryptography.Pkcs.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Pkcs.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Security.Cryptography.Pkcs.dll_3" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Pkcs.dll_3]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll_3]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Security.Cryptography.Pkcs.dll_4" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Pkcs.dll_4]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll_4]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Security.Cryptography.Pkcs.dll_5" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Pkcs.dll_5]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Pkcs.dll_5]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Security.Cryptography.ProtectedData.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.ProtectedData.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.ProtectedData.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Security.Cryptography.ProtectedData.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.ProtectedData.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.ProtectedData.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Security.Cryptography.Xml.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Xml.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Xml.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Security.Cryptography.Xml.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Xml.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Xml.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Security.Cryptography.Xml.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Security.Cryptography.Xml.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Security.Cryptography.Xml.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Text.Encodings.Web.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Text.Encodings.Web.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Text.Encodings.Web.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Text.Encodings.Web.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Text.Encodings.Web.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Text.Encodings.Web.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Text.Encodings.Web.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Text.Encodings.Web.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Text.Encodings.Web.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Text.Json.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Text.Json.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Text.Json.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Text.Json.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Text.Json.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Text.Json.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_appsettings.Development.json" Path="[|AI_PROPPATH_DIR_PERBUILD_appsettings.Development.json]\[|AI_PROPPATH_FILENAME_PERBUILD_appsettings.Development.json]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_appsettings.json" Path="[|AI_PROPPATH_DIR_PERBUILD_appsettings.json]\[|AI_PROPPATH_FILENAME_PERBUILD_appsettings.json]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_appsettings.json_1" Path="[|AI_PROPPATH_DIR_PERBUILD_appsettings.json_1]\[|AI_PROPPATH_FILENAME_PERBUILD_appsettings.json_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_appsettings.json_2" Path="[|AI_PROPPATH_DIR_PERBUILD_appsettings.json_2]\[|AI_PROPPATH_FILENAME_PERBUILD_appsettings.json_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_user_accounts.json" Path="[|AI_PROPPATH_DIR_PERBUILD_user_accounts.json]\[|AI_PROPPATH_FILENAME_PERBUILD_user_accounts.json]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_user_accounts.json_1" Path="[|AI_PROPPATH_DIR_PERBUILD_user_accounts.json_1]\[|AI_PROPPATH_FILENAME_PERBUILD_user_accounts.json_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_web.config" Path="[|AI_PROPPATH_DIR_PERBUILD_web.config]\[|AI_PROPPATH_FILENAME_PERBUILD_web.config]" Type="2" Content="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="MainFeature" Component_="ALaADFS_PrimaryOutput"/>
+    <ROW Feature_="MainFeature" Component_="ALaADFS_PublishOutput_Resources"/>
+    <ROW Feature_="MainFeature" Component_="ALaADFS_PublishOutput_runtimes_win_lib_netcoreapp3.1"/>
+    <ROW Feature_="MainFeature" Component_="ALaADFS_PublishOutput_runtimes_win_lib_netstandard2.0"/>
+    <ROW Feature_="MainFeature" Component_="ADFSPlugin_PrimaryOutput"/>
+    <ROW Feature_="MainFeature" Component_="ADFSPlugin_PublishOutput_Resources"/>
+    <ROW Feature_="MainFeature" Component_="ADFSPlugin_PublishOutput_runtimes_win_lib_netcoreapp3.1"/>
+    <ROW Feature_="MainFeature" Component_="ADFSPlugin_PublishOutput_runtimes_win_lib_netstandard2.0"/>
+    <ROW Feature_="MainFeature" Component_="RandomTruthApi_PrimaryOutput"/>
+    <ROW Feature_="MainFeature" Component_="RandomTruthApi_PublishOutput_runtimes_win_lib_netcoreapp3.1"/>
+    <ROW Feature_="MainFeature" Component_="RandomTruthApi_PublishOutput_runtimes_win_lib_netstandard2.0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="((VersionNT &lt;&gt; 501) AND (VersionNT &lt;&gt; 502))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.VsProjectComponent">
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="ALaADFS.deps.json"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="ALaADFS.dll_1"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="ALaADFS.exe"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="ALaADFS.runtimeconfig.json"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="ADFSPlugin.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="appsettings.json"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.AspNetCore.Cryptography.Internal.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.AspNetCore.DataProtection.Abstractions.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.AspNetCore.DataProtection.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Caching.Abstractions.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Caching.Memory.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Configuration.Abstractions.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Configuration.Binder.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Configuration.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Configuration.FileExtensions.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Configuration.Json.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.DependencyInjection.Abstractions.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.DependencyInjection.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.FileProviders.Abstractions.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.FileProviders.Physical.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.FileSystemGlobbing.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Hosting.Abstractions.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Logging.Abstractions.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Logging.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Options.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Primitives.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.Identity.Client.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.Identity.Web.TokenCache.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Microsoft.IdentityModel.Abstractions.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="Newtonsoft.Json.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="System.Formats.Asn1.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="System.Runtime.CompilerServices.Unsafe.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="System.Security.AccessControl.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="System.Security.Cryptography.Pkcs.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="System.Security.Cryptography.Xml.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="System.Text.Encodings.Web.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="System.Text.Json.dll"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="user_accounts.json"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="System.Security.Cryptography.Pkcs.dll_1"/>
+    <ROW ProjectId="{8489a671-e50a-48d7-8f2e-5bf42236e3bb}" ProjectName="A La ADFS" OutputGroup="PublishOutput" OutputFile="System.Security.AccessControl.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="ADFSPlugin.deps.json"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="ADFSPlugin.dll_2"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="appsettings.json_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.AspNetCore.Cryptography.Internal.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.AspNetCore.DataProtection.Abstractions.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.AspNetCore.DataProtection.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Caching.Abstractions.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Caching.Memory.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Configuration.Abstractions.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Configuration.Binder.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Configuration.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Configuration.FileExtensions.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Configuration.Json.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.DependencyInjection.Abstractions.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.DependencyInjection.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.FileProviders.Abstractions.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.FileProviders.Physical.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.FileSystemGlobbing.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Hosting.Abstractions.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Logging.Abstractions.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Logging.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Options.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.Extensions.Primitives.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.Identity.Client.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.Identity.Web.TokenCache.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Microsoft.IdentityModel.Abstractions.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="Newtonsoft.Json.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="System.Formats.Asn1.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="System.Runtime.CompilerServices.Unsafe.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="System.Security.AccessControl.dll_2"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="System.Security.Cryptography.Pkcs.dll_2"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="System.Security.Cryptography.Xml.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="System.Text.Encodings.Web.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="System.Text.Json.dll_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="user_accounts.json_1"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="System.Security.Cryptography.Pkcs.dll_3"/>
+    <ROW ProjectId="{8d1e2108-4927-4a05-9db8-ced15489a809}" ProjectName="ADFS Plugin" OutputGroup="PublishOutput" OutputFile="System.Security.AccessControl.dll_3"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="appsettings.Development.json"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="appsettings.json_2"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Azure.Core.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Azure.Identity.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Azure.Security.KeyVault.Certificates.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Azure.Security.KeyVault.Secrets.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.AspNetCore.Authentication.JwtBearer.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.AspNetCore.Authentication.OpenIdConnect.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.AspNetCore.Cryptography.Internal.dll_2"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.AspNetCore.DataProtection.Abstractions.dll_2"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.AspNetCore.DataProtection.dll_2"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.Bcl.AsyncInterfaces.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.Identity.Client.dll_2"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.Identity.Client.Extensions.Msal.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.Identity.Web.Certificate.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.Identity.Web.Certificateless.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.Identity.Web.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.Identity.Web.TokenCache.dll_2"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.IdentityModel.Abstractions.dll_2"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.IdentityModel.JsonWebTokens.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.IdentityModel.Logging.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.IdentityModel.LoggingExtensions.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.IdentityModel.Protocols.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.IdentityModel.Tokens.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.IdentityModel.Validators.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Microsoft.OpenApi.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="RandomTruthApi.deps.json"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="RandomTruthApi.dll_1"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="RandomTruthApi.exe"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="RandomTruthApi.runtimeconfig.json"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Swashbuckle.AspNetCore.Swagger.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Swashbuckle.AspNetCore.SwaggerGen.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="Swashbuckle.AspNetCore.SwaggerUI.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="System.Formats.Asn1.dll_2"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="System.IdentityModel.Tokens.Jwt.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="System.Security.AccessControl.dll_4"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="System.Security.Cryptography.Pkcs.dll_4"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="System.Security.Cryptography.ProtectedData.dll"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="System.Security.Cryptography.Xml.dll_2"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="System.Text.Encodings.Web.dll_2"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="web.config"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="System.Security.Cryptography.Pkcs.dll_5"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="System.Security.AccessControl.dll_5"/>
+    <ROW ProjectId="{f996559e-a839-475f-8b9c-60fab265b40f}" ProjectName="RandomTruthApi" OutputGroup="PublishOutput" OutputFile="System.Security.Cryptography.ProtectedData.dll_1"/>
+  </COMPONENT>
+</DOCUMENT>
