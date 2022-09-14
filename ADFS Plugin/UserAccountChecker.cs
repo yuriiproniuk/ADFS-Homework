@@ -71,7 +71,7 @@ namespace ADFS_Plugin
 
                 using (eventLog = new EventLog("ADFS Plugin Log"))
                 {
-                    eventLog.Source = "ADFS Plugin";
+                    eventLog.Source = "ADFS Plugin Log";
                     eventLog.WriteEntry("Token acquired \n", EventLogEntryType.Information);
                 }
 
@@ -86,7 +86,7 @@ namespace ADFS_Plugin
 
                 using (eventLog = new EventLog("ADFS Plugin Log"))
                 {
-                    eventLog.Source = "ADFS Plugin";
+                    eventLog.Source = "ADFS Plugin Log";
                     eventLog.WriteEntry("Scope provided is not supported", EventLogEntryType.Error);
                 }
 
@@ -102,8 +102,8 @@ namespace ADFS_Plugin
             {
                 using (eventLog = new EventLog("ADFS Plugin Log"))
                 {
-                    eventLog.Source = "ADFS Plugin";
-                    eventLog.WriteEntry($"Web Api result: {result}", EventLogEntryType.Error);
+                    eventLog.Source = "ADFS Plugin Log";
+                    eventLog.WriteEntry($"Web Api result: {result}", EventLogEntryType.Information);
                 }
 
                 Console.WriteLine("Web Api result: \n");

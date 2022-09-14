@@ -11,4 +11,3 @@ Solution consists of four parts:
 Notes
 1. MSI installer is located in \Installer Project\Installer Project-SetupFiles.
 2. Didn't manage to write unit/integration tests - lack of time.
-3. Didn't add logging with Windows Event Log API - lack of time.
